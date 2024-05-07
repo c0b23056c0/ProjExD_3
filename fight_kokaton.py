@@ -160,8 +160,6 @@ class Explosion:
             self.life -= 1
             self.img = self.imgs[self.life//10&2]
             screen.blit(self.img, self.rct)
-            
-
 
 
 def main():
